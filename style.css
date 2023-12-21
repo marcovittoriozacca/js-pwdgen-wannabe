@@ -1,5 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.container div{
+margin-bottom: 1rem;
+}
+.container div > label{
+    margin-right: 1rem;
+}
+
+button{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
 }

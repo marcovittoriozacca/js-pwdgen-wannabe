@@ -8,6 +8,47 @@
 </head>
 <body>
 
+    <h1>Password Generator Wannabe! An ugly one</h1>
+
+    <div class="container">
+
+        <form action="#" method="get">
+            <div>
+                <label for="userName">Name:</label>
+                <input type="text" name="name" id="userName" required>
+            </div>
+
+            <div>
+                <label for="userLastName">Last Name:</label>
+                <input type="text" name="lastName" id="userLastName" required>
+            </div>
+
+            <div>
+                <label for="userFavColor">Favorite Color:</label>
+                <input type="text" name="color" id="userFavColor" required>
+            </div>
+
+            <div>
+                <button type="button" onclick="getValues()">Generate the password</button>
+            </div>
+        </form>
+
+        <button type="button" onclick="reset()">Reset</button>
+            
+                <p id="password">
+                
+                </p>
+
+                <p id="nice">
+
+                </p>
+
+                <p id="rip">
+
+                </p>
+            
+    </div>
+
     <script src="./main.js"></script>
 </body>
 </html>
