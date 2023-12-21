@@ -8,46 +8,48 @@
 </head>
 <body>
 
-    <h1>Password Generator Wannabe! An ugly one</h1>
-
-    <div class="container">
-
-        <form action="#" method="get">
-            <div>
-                <label for="userName">Name:</label>
-                <input type="text" name="name" id="userName" required>
-            </div>
-
-            <div>
-                <label for="userLastName">Last Name:</label>
-                <input type="text" name="lastName" id="userLastName" required>
-            </div>
-
-            <div>
-                <label for="userFavColor">Favorite Color:</label>
-                <input type="text" name="color" id="userFavColor" required>
-            </div>
-
-            <div>
-                <button type="button" onclick="getValues()">Generate the password</button>
-            </div>
-        </form>
-
-        <button type="button" onclick="reset()">Reset</button>
+    <main>
+        <div class="container">
+            <h1>Password Generator Wannabe! An ugly one</h1>
             
-                <p id="password">
+            <form action="#" method="get">
+                <div>
+                    <label for="userName">Name:</label>
+                    <input type="text" name="name" id="userName" required>
+                </div>
+
+                <div>
+                    <label for="userLastName">Last Name:</label>
+                    <input type="text" name="lastName" id="userLastName" required>
+                </div>
+
+                <div>
+                    <label for="userFavColor">Favorite Color:</label>
+                    <input type="text" name="color" id="userFavColor" required>
+                </div>
+
+        
                 
-                </p>
+            </form>
+            <div class="buttons">
+                <button type="button" onclick="getValues()" id="values" class="generate">Generate the password</button>
+                <button type="button" onclick="reset()" class="reset">Reset</button>
+            </div>
+                
+                    <p id="password">
+                    
+                    </p>
 
-                <p id="nice">
+                    <p id="nice">
 
-                </p>
+                    </p>
 
-                <p id="rip">
+                    <p id="rip">
 
-                </p>
-            
-    </div>
+                    </p>
+                
+        </div>
+    </main>
 
     <script src="./main.js"></script>
 </body>
